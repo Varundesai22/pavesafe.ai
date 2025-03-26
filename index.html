@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaveSafe.AI - Intelligent Road Defect Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="PaveSafe.AI Logo" width="50" height="50">
+        </div>
+        <h1>PaveSafe.AI</h1>
+    </header>
+    <div class="container">
+        <div class="video-section">
+            <div class="report-section">
+                <button onclick="window.location.href='excel.html'">Generate Road Safety Audit Report</button>
+            </div>
+            <div id="video-container">
+                <video id="video-element" autoplay playsinline controls>
+                    <source src="placeholder_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div id="map-container">
+                <iframe src="map.html" width="100%" height="300" style="border:0;" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="dashboard-section">
+            <div class="severity-calculator">
+                <h2>Severity Index</h2>
+                <p>Placeholder for severity index graph.</p>
+            </div>
+            <div class="detection-dashboard">
+                <h2>Real-Time Detection Results</h2>
+                <ul>
+                    <li>Placeholder for detection results.</li>
+                </ul>
+            </div>
+            <div class="road-damage-overview">
+                <h2>Road Damage Overview</h2>
+                <p>Placeholder for road damage statistics.</p>
+            </div>
+            </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 PaveSafe.AI. All rights reserved.</p>
+    </footer>
+    <script>
+        // Placeholder for accessing webcam (will require more complex implementation)
+        // Example: navigator.mediaDevices.getUserMedia({ video: true }) ...
+
+        // Placeholder for Generate Report button functionality (linking to excel info page for now)
+        // The actual report generation logic will be on the backend
+    </script>
+</body>
+</html>
